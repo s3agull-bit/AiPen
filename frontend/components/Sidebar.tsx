@@ -9,6 +9,7 @@ const navigation = [
     { name: 'Scans', href: '/scans', icon: 'ShieldCheckIcon' },
     { name: 'Compromise Assessment', href: '/compromise-assessment', icon: 'ExclamationTriangleIcon' },
     { name: 'Red Team', href: '/red-team', icon: 'BeakerIcon' },
+    { name: 'Threat Intel', href: '/threat-intel', icon: 'GlobeAltIcon' },
     { name: 'Reports', href: '/reports', icon: 'DocumentChartBarIcon' },
     { name: 'Settings', href: '/settings', icon: 'Cog6ToothIcon' },
 ];
