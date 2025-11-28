@@ -7,6 +7,7 @@ const navigation = [
     { name: 'Dashboard', href: '/', icon: 'HomeIcon' },
     { name: 'Projects', href: '/projects', icon: 'FolderIcon' },
     { name: 'Scans', href: '/scans', icon: 'ShieldCheckIcon' },
+    { name: 'MITRE ATT&CK', href: '/mitre-attack', icon: 'ChartBarIcon' },
     { name: 'Compromise Assessment', href: '/compromise-assessment', icon: 'ExclamationTriangleIcon' },
     { name: 'Red Team', href: '/red-team', icon: 'BeakerIcon' },
     { name: 'Threat Intel', href: '/threat-intel', icon: 'GlobeAltIcon' },
