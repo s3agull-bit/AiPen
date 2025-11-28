@@ -4,7 +4,7 @@ from typing import List, Dict, Any
 from .base import BaseScanner, ScanResult
 
 class NmapScanner(BaseScanner):
-    def __init__(self, target: str, arguments: str = "-sV -T4"):
+    def __init__(self, target: str, arguments: str = "-sV --script vuln -T4"):
         super().__init__(target)
         self.scanner_name = "Nmap"
         self.arguments = arguments
