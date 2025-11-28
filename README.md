@@ -40,6 +40,9 @@ A comprehensive code quality review and pentesting platform similar to Aikido.de
 
 ### Local Development
 
+> [!NOTE]
+> This repository is configured to automatically push changes to the remote `origin` on every commit via a `post-commit` hook.
+
 #### Backend
 
 ```bash
