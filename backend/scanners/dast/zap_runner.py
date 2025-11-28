@@ -2,7 +2,7 @@ import asyncio
 import time
 from typing import List, Dict, Any
 from zapv2 import ZAPv2
-from .base import BaseScanner, ScanResult
+from ..base import BaseScanner, ScanResult
 
 class ZapScanner(BaseScanner):
     def __init__(self, target: str, api_key: str = "", proxy_url: str = "http://zap:8080"):

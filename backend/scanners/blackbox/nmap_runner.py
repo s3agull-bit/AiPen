@@ -1,7 +1,7 @@
 import asyncio
 import nmap
 from typing import List, Dict, Any
-from .base import BaseScanner, ScanResult
+from ..base import BaseScanner, ScanResult
 
 class NmapScanner(BaseScanner):
     def __init__(self, target: str, arguments: str = "-sV --script vuln -T4"):
